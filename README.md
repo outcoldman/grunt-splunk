@@ -103,6 +103,27 @@ grunt.registerTask('default', ['watch']);
 
 ```
 
+### Grunt "splunk-pack" task
+
+Pack application into tar.gz archive for uploading to the store
+
+#### Usage
+
+```
+grunt.config.init({
+  splunk: {
+    pack: {
+      sourceDir: __dirname,
+      output: path.join(__dirname, 'myapp.tar.gz'),
+      source: [
+        '**/*',
+        '!*.tar.gz'
+      ]
+    }
+  }
+});
+```
+
 ## Other useful hidden API
 
 ### Module "grunt-splunk/lib/environment"
