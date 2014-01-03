@@ -37,7 +37,7 @@ module.exports = function(grunt) {
       }
 
       grunt.log.debug('archiver created with ' + bytes + ' total bytes.');
-      grunt.log.writeln('Package "' + outputFile + '" is ready.')
+      grunt.log.writeln('Package "' + outputFile + '" is ready.');
       done();
     });
   });
