@@ -30,7 +30,7 @@
     "remove": "~0.1.5",
     "js-yaml": "~3.0.1",
     "grunt": "~0.4.2",
-    "archiver": "~0.5.0-alpha"
+    "archiver": "~0.5.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.2",
